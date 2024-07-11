@@ -74,7 +74,7 @@ export function RegisterDonor() {
       toast.success(`Cadastro Efetuado com Sucesso`, {
         action: {
           label: 'Login',
-          onClick: () => navigate(`/sign-in?email=${data?.email}`),
+          onClick: () => navigate(`/login?email=${data?.email}`),
         },
       })
 
